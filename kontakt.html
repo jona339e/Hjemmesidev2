@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Mit Portfolio</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootst
+rap.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootst
+rap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<div id="navSide" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Index.html">Portfolio</a>
+    <a href="Om_Mig.html">Om Mig</a>
+    <a href="kontakt.html">Kontakt</a>
+  </div>
+  
+  <body>
+  <div id="main">
+  
+  <div class="container-fluid p-5 bg-dark text-white text-center ">
+    <h1>Kontakt</h1>
+    <h6>Jonas Østergaard</h3>
+  </div>
+
+  <span style="font-size: 30px;cursor: pointer;position: sticky; top: 0;" onclick="openNav()">☰</span>
+
+
+<div class="container p-5 my-5 bg-light text-dark border rounded">
+<h1>Kontakt oplsyninger</h1>
+<p>&#128231; Jonasoe@hotmail.com</p>
+<p>&#128222; 53837481</p>
+<a href="https://www.linkedin.com/in/jonas-%C3%B8stergaard-92875321b/"><i class="fa fa-linkedin-square" style="font-size: 24px;color: blue"></i></a>
+<p></p>
+
+
+</div>
+
+
+
+<script>
+
+function openNav(){
+  if (window.matchMedia("(max-width: 800px)").matches){
+      document.getElementById("navSide").style.width = "20%";
+      document.getElementById("main").style.marginLeft = "20%";
+  }
+  else{
+    document.getElementById("navSide").style.width = "10%";
+    document.getElementById("main").style.marginLeft = "10%";
+  }
+}
+
+  function closeNav() {
+  document.getElementById("navSide").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+  </script>
+
+</body>
+
+</html>
