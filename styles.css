@@ -81,8 +81,11 @@ body{
   .cont .container{
     position: absolute;
     top: 0;
-    left: 55%;
+    left: 52%;
+    width: 400px;
   }
   .cont .container a{
     color: white;
+
   }
+
